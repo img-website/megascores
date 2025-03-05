@@ -899,6 +899,10 @@ video {
   margin-top: 134px;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
