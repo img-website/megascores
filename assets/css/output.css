@@ -887,6 +887,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .mt-7 {
   margin-top: 1.75rem;
 }
@@ -897,10 +901,6 @@ video {
 
 .mt-\[134px\] {
   margin-top: 134px;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .box-border {
@@ -1100,16 +1100,20 @@ video {
   height: 500px;
 }
 
-.h-\[98vh\] {
-  height: 98vh;
-}
-
 .h-full {
   height: 100%;
 }
 
+.h-\[98vh\] {
+  height: 98vh;
+}
+
 .min-h-\[80dvh\] {
   min-height: 80dvh;
+}
+
+.min-h-\[98vh\] {
+  min-height: 98vh;
 }
 
 .w-10 {
@@ -2248,10 +2252,6 @@ video {
   border-width: 0px;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
 .border-\[3px\] {
   border-width: 3px;
 }
@@ -2326,11 +2326,6 @@ video {
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
-}
-
-.border-theme1 {
-  --tw-border-opacity: 1;
-  border-color: rgb(204 161 6 / var(--tw-border-opacity, 1));
 }
 
 .border-transparent {
@@ -3421,16 +3416,6 @@ video {
   padding-inline-end: 1rem;
 }
 
-.placeholder\:text-theme1::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(204 161 6 / var(--tw-text-opacity, 1));
-}
-
-.placeholder\:text-theme1::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(204 161 6 / var(--tw-text-opacity, 1));
-}
-
 .placeholder\:text-white::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -3502,10 +3487,6 @@ video {
   text-align: center;
 }
 
-.focus\:border-none:focus {
-  border-style: none;
-}
-
 .focus\:border-blue-500:focus {
   --tw-border-opacity: 1;
   border-color: rgb(59 130 246 / var(--tw-border-opacity, 1));
@@ -3519,10 +3500,6 @@ video {
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
-
-.focus\:outline-theme1:focus {
-  outline-color: #CCA106;
 }
 
 .focus\:ring-0:focus {
@@ -3576,8 +3553,24 @@ video {
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:mt-28 {
+    margin-top: 7rem;
+  }
+
   .max-sm\:pb-10 {
     padding-bottom: 2.5rem;
+  }
+
+  .max-sm\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .max-sm\:pt-28 {
+    padding-top: 7rem;
+  }
+
+  .max-sm\:pt-10 {
+    padding-top: 2.5rem;
   }
 }
 
@@ -3631,6 +3624,10 @@ video {
 
   .md\:h-\[278px\] {
     height: 278px;
+  }
+
+  .md\:h-\[98vh\] {
+    height: 98vh;
   }
 
   .md\:grid-cols-12 {
