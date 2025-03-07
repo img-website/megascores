@@ -79,6 +79,12 @@ function blogSwiper() {
                 spaceBetween: 20,
             },
         },
+        pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+          },
     });
+    
 }
+
 blogSwiper();

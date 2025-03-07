@@ -1136,6 +1136,10 @@ video {
   height: 100%;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .min-h-\[98vh\] {
   min-height: 98vh;
 }
@@ -1206,6 +1210,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-9 {
+  width: 2.25rem;
 }
 
 .max-w-2xl {
@@ -3495,6 +3507,15 @@ video {
   }
 }
 
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #d1d5db; /* Tailwind's gray-300 */
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
 .\*\:object-contain > * {
   -o-object-fit: contain;
      object-fit: contain;
@@ -3814,6 +3835,10 @@ video {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-96 {
+    height: 24rem;
   }
 
   .lg\:basis-auto {
